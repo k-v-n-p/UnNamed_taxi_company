@@ -21,3 +21,8 @@
 
 *Payment by Cash/online.
 
+*Cabs for point to point travel, a round trip and rental.
+
+*Be it a day long business meeting, a shopping trip or visiting a place.
+
+*Get a cab in your doorstep.
