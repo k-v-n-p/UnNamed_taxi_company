@@ -1,6 +1,6 @@
 #    ******** Sathi Cab Service ********
 
-*To be mentioned in the website- 
+*To be mentioned in the website okk- 
 (Working hours: 24hours a day, all week 
                     or 
                 24/7 round the clock availability)
