@@ -1,0 +1,30 @@
+K-> Remove comments
+M-> logo (download png of the name saathi or just find non-copyrighted image)
+M/K-> check call button on mobile
+M-> shift about button from navbar to contact details dropdown
+Y-> learn waht are nav tags.. and add them for {services, about, maybe reviews}
+M-> create saathicabs gmail account and change kvcd to devs and update email
+M-> write it somewhere 
+	We respect your time
+	All customers are equal
+	*Be it a day long business meeting, a shopping trip or visiting a place.
+	*Get a cab at your doorstep... (with a click/ a call)
+M/K-> Update Services to following 3:
+Cabs for point to point travel, a round trip and rental. 
+
+
+
+
+
+
+
+
+For Later
+---------
+-> add google map location
+-> link to the reviews at the location
+-> 
+
+
+Additional 
+-----------
