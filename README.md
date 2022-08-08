@@ -1,4 +1,4 @@
-#    ******** Sathi Macha Cab Service ********
+#    ******** Sathi Cab Service ********
 
 *To be mentioned in the website- 
 (Working hours: 24hours a day, all week 
