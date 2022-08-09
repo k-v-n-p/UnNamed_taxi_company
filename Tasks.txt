@@ -1,5 +1,6 @@
 K-> Remove comments  //done
 M-> logo (download png of the name saathi or just find non-copyrighted image)  //done
+    # logo is not required.
 M/K-> check call button on mobile
 M-> shift about button from navbar to contact details dropdown
 Y-> learn waht are nav tags.. and add them for {services, about, maybe reviews}
