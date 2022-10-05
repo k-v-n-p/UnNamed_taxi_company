@@ -80,8 +80,10 @@
 						<div class="col-lg-4  col-md-6 header-right">
 							<h4 class="pb-30">Book Your Ride Online!</h4>
 							<iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
-							
-							<form class="form" id="detailsForm" name="detailsForm" action="https://kvcd-backend.herokuapp.com" method="POST" target="dummyframe">
+							<!-- <form class="form" action="https://kvcd-backend.herokuapp.com" method="POST" >
+								<button type="submit" class="btn btn-primary" >hey</button>
+							</form> -->
+							<form class="form" action="https://kvcd-backend.herokuapp.com" method="POST" target="dummyframe">
 							    <div class="from-group" >
 							    	<input class="form-control txt-field" type="text" name="name" placeholder="Your name"  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your name'">
 							    	<!--<input class="form-control txt-field" type="email" name="email" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'"> -->
@@ -120,7 +122,7 @@
 									</div>
 							    </div>	
 							    <div class="form-group">
-							            <button class="btn btn-default btn-lg btn-block text-center text-uppercase" type="reset" onclick='alert("Data Submitted successfully!\n Please Wait for a phone call for further details");'>Make reservation</button>
+							            <button class="btn btn-default btn-lg btn-block text-center text-uppercase" type="submit" onclick='alert("Data Submitted successfully!\n Please Wait for a phone call for further details");'>Make reservation</button>
 							    </div>
 							</form>
 						</div>											
