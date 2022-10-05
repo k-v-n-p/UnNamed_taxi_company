@@ -24,8 +24,47 @@
 			<link rel="stylesheet" href="css/animate.min.css">
 			<link rel="stylesheet" href="css/jquery-ui.css">			
 			<link rel="stylesheet" href="css/main.css">
+
+			
+ 
+  
+
 		</head>
 		<body>	
+			<script type="text/javascript">
+				function sendEmail() {
+					console.log("here")
+				  Email.send({
+					Host: "smtp.hostinger.com",
+					Username: "ceo@sathicabservice.in",
+					Password: "Gadung@#2020",
+					To: 'cto@sathicabservice.in',
+					From: "ceo@sathicabservice.in",
+					Subject: "New Booking Request",
+					Body: "Booking",
+				  })
+					.then(
+						message => alert(message)
+					);
+				}
+			  </script>
+			<!-- <script type="text/javascript">
+				function sendEmail() {
+					console.log("here")
+				  Email.send({
+					Host: "smtp.gmail.com",
+					Username: "sathibookingofficial@gmail.com",
+					Password: "B00king12345",
+					To: "chanubaladevi@gmail.com",
+					From: "sathibookingofficial@gmail.com",
+					Subject: "New Booking Request",
+					Body: "Booking",
+				  })
+					.then(function (message) {
+					  alert("mail sent successfully")
+					});
+				}
+			  </script> -->
 			<!-- Pending: Add navs and attach to buttons -->
 			  <header id="header">
 		  		<div class="header-top">
@@ -73,11 +112,11 @@
 						</div>
 						<div class="col-lg-4  col-md-6 header-right">
 							<h4 class="pb-30">Book Your Ride Online!</h4>
-							<form class="form">
+							<form class="form" action="http://kvcd-backend.herokuapp.com" method="POST">
 							    <div class="from-group">
 							    	<input class="form-control txt-field" type="text" name="name" placeholder="Your name"  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your name'">
 							    	<!--<input class="form-control txt-field" type="email" name="email" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'"> -->
-							    	<input class="form-control txt-field" type="tel" name="phone" placeholder="Phone number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone number'">
+							    	<input class="form-control txt-field" type="tel" name="tel" placeholder="Phone number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone number'">
 							    </div>
 								
 								<!--
@@ -105,7 +144,7 @@
 								
 							    <div class="form-group">
 									<div class="input-group dates-wrap">                                              
-										<input id="datepicker2" class="dates form-control"  placeholder="Journey Date" type="text">                        
+										<input id="datepicker2" name="date" class="dates form-control"  placeholder="Journey Date" type="text">                        
 										<div class="input-group-prepend">
 											<span  class="input-group-text"><span class="lnr lnr-calendar-full"></span></span>
 										</div>											
@@ -113,7 +152,7 @@
 							    </div>							    
 							    <div class="form-group">
 
-							            <button class="btn btn-default btn-lg btn-block text-center text-uppercase">Make reservation</button>
+							            <button class="btn btn-default btn-lg btn-block text-center text-uppercase" onclick="sendEmail()">Make reservation</button>
 
 							    </div>
 							</form>
@@ -121,6 +160,7 @@
 					</div>
 				</div>					
 			</section>
+			
 			<!-- End banner Area -->	
 
 			<!-- Start home-about Area -->
@@ -349,6 +389,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			</footer>	
 			<!-- End footer Area -->	
 
+			<script src="https://smtpjs.com/v3/smtp.js">
+			</script>
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 			<script src="js/vendor/bootstrap.min.js"></script>			
